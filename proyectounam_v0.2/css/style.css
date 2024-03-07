@@ -184,3 +184,22 @@ margin:auto;
      width: 100%;
  }
  
+
+ .servicio-principal{
+    padding: 50px 100px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.servicio-img{
+    width: 250px;
+    margin-right: 30px;
+}
+.servicio-informacion{
+    padding: 0px 80px 40px;
+}
+
+@media screen and (max-width: 800px){
+
+    .servicio-principal{padding: 0px 10px; display: inline-block; text-align: center;}
+    .servicio-img{display: inline-block; margin: 0px;}
+}

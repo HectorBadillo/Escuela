@@ -1,18 +1,4 @@
 
-
-.pumabus-principal{
-    padding: 50px 100px;
-    margin-bottom: 5px;
-    display: flex;
-}
-.pumabus-img{
-    width: 250px;
-    margin-right: 30px;
-}
-.pumabus-informacion{
-    padding: 0px 80px 40px;
-}
-
 .pumabus-contenido{
     padding: 0px 80px 40px;
 }
@@ -52,10 +38,6 @@
 /* Responsivo */
 
 @media screen and (max-width: 800px){
-
-    .pumabus-principal{padding: 0px 10px; display: inline-block; text-align: center;}
-    .pumabus-img{display: inline-block; margin: 0px;}
-
     .pumabus-contenido{padding: 0px 10px;}
     .pumabus-ruta{display: inline-block; text-align:center ; }
     .pumabus-ruta-img{width: 90%; padding: 0; display: inline-block;}

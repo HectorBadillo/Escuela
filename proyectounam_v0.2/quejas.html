@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pumabus</title>
+    <title>Buzon de quejas</title>
 
-    <link rel="shortcut icon" href="img/pumabus.png" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/pumabusStyle.css">
-
+    <link rel="stylesheet" href="css/quejasStyle.css">
 </head>
 <body>
     <header class="header">
@@ -36,69 +34,64 @@
         </div>
     </header>
 
-    <main>
-        <section class="servicio-principal">
-            <div class="servicio-img">
-                <img src="img/pumabus.png" alt="PumaBus">
-            </div>
+    <section class="servicio-principal">
+        <div class="servicio-img">
+            <img src="img/quejas.png" alt="PumaBus">
+        </div>
 
-            <div class="servicio-informacion">
-                <h2>PumaBus</h2>
-                <p>
-                    Informacion de horarios y rutas del pumabus
+        <div class="servicio-informacion">
+            <h2>Buzon de Quejas</h2>
+            <p>
+                Informacion de horarios y rutas del pumabus
+            </p>
+        </div>
+    </section>
+
+    <div class="titulo">
+        <p>
+            Tu voz cuenta
+        </p>
+    </div>
+
+    <section class="buzon">
+        <div class="buzon-caja">
+            <div class="buzon-header">
+                <h2>Quejas y Sugerencias</h2>
+            </div>
+            <div class="buzon-caja-main">
+                <p class="buzon-caja-main__texto">
+                    ¿Cual es tu nombre?
                 </p>
+                <input
+                    class="buzon-caja-main__input"
+                    type="text"
+                    placeholder="Nombre"
+                >
+                <p class="buzon-caja-main__texto">
+                    ¿Cual es tu carrera?
+                </p>
+                <input
+                    class="buzon-caja-main__input"
+                    type="text"
+                    placeholder="Carrera"
+                >
+                <p class="buzon-caja-main__texto">
+                        Escribe tu comentario
+                </p>
+                <textarea 
+                    class="comentario"
+                    cols="30" 
+                    rows="10">
+                </textarea>
+                <br>
+                <button class="boton" type="button">
+                    Enviar
+                </button>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="pumabus-contenido">
-            <h3>Rutas</h3>
-            <div class="pumabus-ruta">
-                <h4>Ruta Toreo</h4>
-                <div class="pumabus-ruta-img">
-                    <img src="img/rutaToreo.png" alt="" height="400px">
-                </div>
-                <div class="pumabus-ruta-horarios">
-                    <h2>Horarios</h2>
-                    <p>
-                        ----
-                        <br>----
-                        <br>----
-                    </p>
-                </div>
-            </div>
 
-            <div class="pumabus-ruta">
-                <h4>Ruta Toreo</h4>
-                <div class="pumabus-ruta-img">
-                    <img src="img/rutaToreo.png" alt="" height="400px">
-                </div>
-                <div class="pumabus-ruta-horarios">
-                    <h2>Horarios</h2>
-                    <p>
-                        ----
-                        <br>----
-                        <br>----
-                    </p>
-                </div>
-            </div>
-
-            <div class="pumabus-ruta">
-                <h4>Ruta Toreo</h4>
-                <div class="pumabus-ruta-img">
-                    <img src="img/rutaToreo.png" alt="" height="400px">
-                </div>
-                <div class="pumabus-ruta-horarios">
-                    <h2>Horarios</h2>
-                    <p>
-                        ----
-                        <br>----
-                        <br>----
-                    </p>
-                </div>
-            </div>
-
-        </section>
-    </main>
     <footer class="footer">
         <div class="contenedor">
             <div class="barra">
