@@ -1,0 +1,1 @@
+window.alert('Me encanta el curso');
